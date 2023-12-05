@@ -1,0 +1,345 @@
+/* HEADER */
+.site-header.header-main-layout-1.ast-primary-menu-enabled.ast-logo-title-inline.ast-hide-custom-menu-mobile.ast-builder-menu-toggle-icon.ast-mobile-header-inline {
+    top: 0;
+    display: inline-block;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ast-above-header-wrap {
+    display: inline-block;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ast-above-header-bar.ast-above-header.site-header-focus-item.right {
+    display: inline-block;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+}
+/* A travailler */
+.site-above-header-wrap.ast-builder-grid-row-container.site-header-focus-item.ast-container {
+    display: inline-block;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* 5ème Div contenant logo + menu principal */
+.ast-builder-grid-row.ast-builder-grid-row-has-sides.ast-builder-grid-row-no-center {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+}
+
+.site-header-above-section-left.site-header-section.ast-flex.site-header-section-left {
+    background-color: #ffffff;
+}
+
+.ast-builder-layout-element.ast-flex.site-header-focus-item {
+    background-color: #ffffff;
+}
+/* Logo */
+.site-branding.ast-site-identity {
+    background-color: #ffffff;
+}
+
+
+/* MENU principal */
+
+.ast-builder-menu-1.ast-builder-menu.ast-flex.ast-builder-menu-1-focus-item.ast-builder-layout-element.site-header-focus-item {
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    background-color: #ffffff;
+}
+
+.ast-above-header-bar.ast-above-header.site-header-focus-item.right {
+    align-items: end;
+    height: 80px;
+    background-color: #ffffff;
+}
+
+.menu-item {
+    color: #000000;
+    display: inline-block;
+    background-color: #ffffff;
+    text-align: center;
+    height: 80px;
+}
+
+/* Contacter nous*/
+li.menu-item-24 a {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+li.menu-item-24 a:hover {
+    color: #ffffff;
+    background-color: #C02E44;
+}
+
+li.menu-item-24 a:active {
+    color: #ffffff;
+    background-color: #C02E44;
+}
+
+/* Admin */
+li.menu-item-409 a {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+li.menu-item-409 a:hover {
+    color: #ffffff;
+    background-color: #C02E44;
+}
+
+li.menu-item-409 a:active {
+    color: #ffffff;
+    background-color: #C02E44;
+}
+
+/* Commander*/
+li.menu-item-747 a {
+    color: #ffffff;
+    background-color: #E0B9B4;
+}
+
+li.menu-item-747 a:hover {
+    color: #ffffff;
+    background-color: #C02E44;
+}
+
+li.menu-item-747 a:active {
+    color: #ffffff;
+    background-color: #C02E44;
+}
+
+/* FOOTER */
+#colophon {
+    height: 60px;
+    align-items: center;
+    font-size: 16px;
+    color: #000000;
+}
+
+#colophon a {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+/* FORMULAIRES : */
+
+.frm_submit {
+    display: inline-block;
+    flex-direction: row;
+    width: 100%;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+}
+
+.frm_submit p {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#champ-1 {
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width:100%;
+    height: 70px;
+}
+
+#champ-2 {
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width:100%;
+    height: 70px;
+}
+
+#champ-3 {
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width:100%;
+    height: 70px;
+}
+
+#champ-4 {
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width:100%;
+    height: 70px;
+}
+
+#champ-5 {
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width:100%;
+    height: 70px;
+}
+
+#champ-6 {
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width:100%;
+    height: 70px;
+}
+
+#champ-7 {
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width:100%;
+    height: 300px;
+}
+
+/* FORMULAIRE de 'Commander'. */
+
+.boissons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.boisson {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+#quantites {
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px;
+    width:60px;
+    height: 60px;
+    text-align: center;
+}
+
+.colonnes_form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ffffff;
+}
+
+.colonnes_form p {
+    color: #ffffff;
+    line-height: 0;
+}
+
+.information {
+    display: inline-block;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-right: 5%;
+}
+
+.livraison {
+    display: inline-block;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    border-left: 1px solid #ffffff;
+}
+
+.sous_titres_form {
+    text-align: left;
+    color: #ffffff;
+    font-family: syne;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#bouton {
+    padding: 20px;
+    background-color: #E0B9B4;;
+    color: #ffffff;
+    height: 55px;
+    width: 198px;
+    border-radius: 7px;
+}
+
+
+@media (max-width: 1024px) {
+
+    .boissons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .colonnes_form {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .boissons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .colonnes_form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .sous_titres_form {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .information {
+        margin-top: 40px;
+        border: 0px;
+        width: 100%;
+        padding: 5px;
+        margin: 0px;
+    }
+
+    .livraison {
+        margin-top: 40px;
+        border: 0px;
+        width: 100%;
+        padding: 5px;
+        margin: 0px;
+    }
+}
