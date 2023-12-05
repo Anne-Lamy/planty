@@ -343,4 +343,16 @@ li.menu-item-747 a:active {
         padding: 5px;
         margin: 0px;
     }
+
+    .information p {        
+        line-height: 1;
+    }
+
+    .information p {        
+        line-height: 1;
+    }
+
+    .elementor-widget-container p {
+        line-height: 1;
+    }
 }
