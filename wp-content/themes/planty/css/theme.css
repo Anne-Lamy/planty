@@ -1,4 +1,5 @@
 /* HEADER */
+
 .site-header.header-main-layout-1.ast-primary-menu-enabled.ast-logo-title-inline.ast-hide-custom-menu-mobile.ast-builder-menu-toggle-icon.ast-mobile-header-inline {
     top: 0;
     display: inline-block;
@@ -36,7 +37,7 @@
     width: 100%;
     height: 80px;
     background-color: #ffffff;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 0px;
     margin: 0px;
 }
