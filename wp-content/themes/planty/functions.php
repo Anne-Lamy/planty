@@ -27,89 +27,27 @@ function child_enqueue_styles() {
 
 
 
-
-/* --------------- TRAVAIL DE RECHERCHE -----------------
-
-Prise en charge des menus WP.
-
-	register_nav_menus( array(
-		'primary' => 'Menu Principal',
-		'footer' => 'Menu de pied de page',
-) ); */
-
-
-
 // Ajout du lien ADMIN dans le menu principal si autorisé.
-
- /*function menu_admin_planty( $items, $args ) {
-    if ( is_user_logged_in() && $args->theme_location == 'primary') {
-        $items .= '<li id="menu-item-409" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-409">
-    			<a target="_blank" class="menu-link" href="http://localhost/planty/wp-admin/">Admin</a>
-				</li>';
-    }
-    return $items;
-}
-
-add_filter( 'wp_nav_menu_items', 'menu_admin_planty', 10, 2); 
-
-Pour éventuellement ajouter un lien de déconnexion juste aprés le lien Admin :
- | <a href="<?php echo wp_logout_url(home_url()); ?>">Déconnexion</a> */
-
-
- 
-/* Pour définir l'ordre du menu.
-
-function custom_menu_order() {
-	return array( 'menu-item-24', 'menu-item-409', 'menu-item-747');
-}
-
-add_filter( 'menu_order', 'custom_menu_order' );
-
-        // Divise les éléments de menu existants en un tableau     
-		$menu_items = explode('</li>', $items);
-
-		// Insère l'élément de menu de l'administration en deuxième position      
-		array_splice($menu_items, 1, 0, $admin_link); 
-
-		// Recrée la chaîne d'éléments de menu en les rejoignant     
-		$items = implode('</li>', $menu_items); 
-		
-	--------------- FIN DE RECHERCHE ----------------- */
-
 
 function menu_admin_planty( $items, $args ) {
 
-	// Vérifie si l'utilisateur est connecté et si l'emplacement du menu est 'primary'.
+
 if ( is_user_logged_in() && $args->theme_location == 'primary') {
 
-	// Construit l'élément de menu pour le lien vers l'interface d'administration.  
 	$admin_link = '<li id="menu-item-409" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-409">                        
-	<a target="_blank" class="menu-link" href="http://localhost/planty/wp-admin/">Admin</a>                   
+	<a target="_blank" class="menu-link" href="/planty/wp-admin/">Admin</a>                   
 	</li>';
 
-	// Divise les éléments de menu existants en un tableau.  
 	$menu_items = explode('</li>', $items);      
 
-	// Insère l'élément de menu de l'administration en deuxième position.
 	array_splice($menu_items, 1, 0, $admin_link);
 
-	// Recrée la chaîne d'éléments de menu en les rejoignant.
 	$items = implode('</li>', $menu_items);
 	}
 
-	// Renvoie les éléments de menu réorganisés.
 	return $items;
 }
 
-	// Ajoute un hook pour exécuter la fonction 'menu_admin_planty' lors de la génération des éléments de menu.
-	add_filter( 'wp_nav_menu_items', 'menu_admin_planty', 10, 2);
+add_filter( 'wp_nav_menu_items', 'menu_admin_planty', 10, 2);
 
-	/* Pour bien comprendre, $items est défini comme 
-	une chaîne de caractères représentant 
-	les éléments de menu HTML générés par WordPress.
-
-	Dans la fonction, le code ajoute un nouvel élément de menu
-	à la chaîne $items si l'utilisateur est connecté et si le menu en cours de génération 
-	est celui spécifié par $args->theme_location. La fonction modifie ensuite la chaîne 
-	$items en ajoutant le lien administrateur à la deuxième position dans le menu. */
 ?>

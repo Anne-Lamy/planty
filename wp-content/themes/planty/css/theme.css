@@ -30,6 +30,11 @@
     padding: 0px;
     margin: 0px;
 }
+
+#masthead .ast-container, .site-header-focus-item + .ast-breadcrumbs-wrapper {
+    padding-right: 0px;
+}
+
 /* A travailler */
 .site-above-header-wrap.ast-builder-grid-row-container.site-header-focus-item.ast-container {
     display: inline-block;
