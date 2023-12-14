@@ -93,17 +93,17 @@
 }
 
 /* Contacter nous*/
-li.menu-item-24 a {
+li.menu-item-899 a {
     color: #000000;
     background-color: #ffffff;
 }
 
-li.menu-item-24 a:hover {
+li.menu-item-899 a:hover {
     color: #ffffff;
     background-color: #C02E44;
 }
 
-li.menu-item-24 a:active {
+li.menu-item-899 a:active {
     color: #ffffff;
     background-color: #C02E44;
 }
@@ -290,7 +290,7 @@ li.menu-item-747 a:active {
     font-weight: 700;
 }
 
-#bouton {
+.bouton {
     padding: 20px;
     background-color: #E0B9B4;;
     color: #ffffff;
@@ -299,6 +299,9 @@ li.menu-item-747 a:active {
     border-radius: 7px;
 }
 
+.bouton :hover {
+    background-color: #C02E44;
+}
 
 @media (max-width: 1024px) {
 
