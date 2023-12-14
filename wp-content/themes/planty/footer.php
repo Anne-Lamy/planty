@@ -29,7 +29,7 @@
                                                 <li id="menu-item-40"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-40">
                                                     <a rel="privacy-policy"
-                                                        href="http://localhost/planty/politique-de-confidentialite/"
+                                                        href="/planty/politique-de-confidentialite/"
                                                         class="menu-link">Mentions légales</a></li>
                                             </ul>
                                         </div>

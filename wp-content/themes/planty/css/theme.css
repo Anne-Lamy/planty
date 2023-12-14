@@ -124,6 +124,18 @@ li.menu-item-409 a:active {
     background-color: #C02E44;
 }
 
+/* Envoyer */
+
+.label {
+    font-family: Syne;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C02E44;
+}
+
 /* Commander*/
 li.menu-item-747 a {
     color: #ffffff;
