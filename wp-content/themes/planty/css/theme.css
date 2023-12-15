@@ -71,6 +71,10 @@
 
 /* MENU principal */
 
+#primary {
+    margin-bottom: 0px;
+}
+
 .ast-builder-menu-1.ast-builder-menu.ast-flex.ast-builder-menu-1-focus-item.ast-builder-layout-element.site-header-focus-item {
     margin: 0;
     padding: 0;
@@ -163,6 +167,15 @@ li.menu-item-747 a:active {
 #colophon a {
     color: #000000;
     background-color: #ffffff;
+}
+
+#menu-menu-du-footer {
+    margin: 0px;
+    height: 40px;
+}
+
+.site-above-footer-wrap.site-below-footer-wrap {
+    padding-bottom: 0px;
 }
 
 /* FORMULAIRES : */
