@@ -23,7 +23,8 @@ function child_enqueue_styles() {
 	wp_enqueue_style( 'theme-style', get_stylesheet_directory_uri() . '/css/theme.css',  array(), filemtime(get_stylesheet_directory() . '/css/theme.css'));
 }
 
-
+// Inclure le fichier commande.php
+include("commande.php");
 
 // Ajout du lien ADMIN dans le menu principal si autorisé.
 function menu_admin_planty( $items, $args ) {
@@ -47,4 +48,6 @@ if ( is_user_logged_in() && $args->theme_location == 'primary') {
 
 add_filter( 'wp_nav_menu_items', 'menu_admin_planty', 10, 2);
 
+// Appeler la fonction enregistrerCommande
+enregistrerCommande();
 ?>
