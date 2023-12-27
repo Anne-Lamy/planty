@@ -18,23 +18,7 @@
                                             'menu_class' => 'ast-nav-menu ast-flex astra-footer-horizontal-menu astra-footer-tablet-vertical-menu astra-footer-mobile-vertical-menu',
                                         )
                                         );
-                                    ?>
-
-                                    <!-- <nav class="site-navigation ast-flex-grow-1 navigation-accessibility footer-navigation"
-                                        id="footer-site-navigation" aria-label="Navigation du site"
-                                        itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope">
-                                        <div class="footer-nav-wrap">
-                                            <ul id="astra-footer-menu"
-                                                class="ast-nav-menu ast-flex astra-footer-horizontal-menu astra-footer-tablet-vertical-menu astra-footer-mobile-vertical-menu">
-                                                <li id="menu-item-40"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-40">
-                                                    <a rel="privacy-policy"
-                                                        href="/planty/politique-de-confidentialite/"
-                                                        class="menu-link">Mentions légales</a></li>
-                                            </ul>
-                                        </div>
-                                    </nav> -->
-                                    
+                                    ?>                                    
                                 </div>
                             </div>
                         </div>
