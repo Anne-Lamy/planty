@@ -192,7 +192,7 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
                                             href="/politique-de-confidentialite/"
                                             class="menu-link">Mentions légales</a></li>
                                     <li class="page_item page-item-9 menu-item"><a
-                                            href="/nous-rencontrer/"
+                                            href="/rencontrez-nous/"
                                             class="menu-link">Nous-rencontrer</a></li>
                                 </ul>
                             </div>
