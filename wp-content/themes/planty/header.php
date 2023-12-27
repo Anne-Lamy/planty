@@ -58,7 +58,7 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
                                         <span class="site-logo-img"><a href="/planty/"
                                                 class="custom-logo-link" rel="home" aria-current="page"><img width="201"
                                                     height="19"
-                                                    src="wp-content/uploads/2023/11/cropped-Logo-mini.png"
+                                                    src="/planty/wp-content/uploads/2023/11/Logo-mini.png"
                                                     class="custom-logo" alt="" decoding="async"></a></span>
                                         <div class="ast-site-title-wrap">
                                             <span class="site-title" itemprop="name">
@@ -126,7 +126,7 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
                                 itemscope="itemscope">
                                 <span class="site-logo-img"><a href="/planty/" class="custom-logo-link"
                                         rel="home" aria-current="page"><img width="201" height="19"
-                                            src="wp-content/uploads/2023/11/cropped-Logo-mini.png"
+                                            src="/planty/wp-content/uploads/2023/11/Logo-mini.png"
                                             class="custom-logo" alt="" decoding="async"></a></span>
                                 <div class="ast-site-title-wrap">
                                     <span class="site-title" itemprop="name">
@@ -186,13 +186,13 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
                                     <li class="page_item page-item-7 current-menu-item menu-item current-menu-item"><a
                                             href="/planty/" class="menu-link">Accueil</a></li>
                                     <li class="page_item page-item-11 menu-item"><a
-                                            href="/precommande/" class="menu-link">Commander</a>
+                                            href="/planty/precommande/" class="menu-link">Commander</a>
                                     </li>
                                     <li class="page_item page-item-3 menu-item"><a
-                                            href="/politique-de-confidentialite/"
+                                            href="/planty/politique-de-confidentialite/"
                                             class="menu-link">Mentions légales</a></li>
                                     <li class="page_item page-item-9 menu-item"><a
-                                            href="/rencontrez-nous/"
+                                            href="/planty/rencontrez-nous/"
                                             class="menu-link">Nous-rencontrer</a></li>
                                 </ul>
                             </div>
