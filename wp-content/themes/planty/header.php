@@ -55,14 +55,14 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
                                     data-section="title_tagline">
                                     <div class="site-branding ast-site-identity" itemtype="https://schema.org/Organization"
                                         itemscope="itemscope">
-                                        <span class="site-logo-img"><a href="/"
+                                        <span class="site-logo-img"><a href="/planty/"
                                                 class="custom-logo-link" rel="home" aria-current="page"><img width="201"
                                                     height="19"
-                                                    src="wp-content\uploads\2023\11\cropped-Logo-mini.png"
+                                                    src="wp-content/uploads/2023/11/cropped-Logo-mini.png"
                                                     class="custom-logo" alt="" decoding="async"></a></span>
                                         <div class="ast-site-title-wrap">
                                             <span class="site-title" itemprop="name">
-                                                <a href="/" rel="home" itemprop="url">
+                                                <a href="/planty/" rel="home" itemprop="url">
     
                                                 </a>
                                             </span>
@@ -111,13 +111,13 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
                             data-section="title_tagline">
                             <div class="site-branding ast-site-identity" itemtype="https://schema.org/Organization"
                                 itemscope="itemscope">
-                                <span class="site-logo-img"><a href="/" class="custom-logo-link"
+                                <span class="site-logo-img"><a href="/planty/" class="custom-logo-link"
                                         rel="home" aria-current="page"><img width="201" height="19"
-                                            src="wp-content\uploads\2023\11\cropped-Logo-mini.png"
+                                            src="wp-content/uploads/2023/11/cropped-Logo-mini.png"
                                             class="custom-logo" alt="" decoding="async"></a></span>
                                 <div class="ast-site-title-wrap">
                                     <span class="site-title" itemprop="name">
-                                        <a href="/" rel="home" itemprop="url">
+                                        <a href="/planty/" rel="home" itemprop="url">
 
                                         </a>
                                     </span>
@@ -171,7 +171,7 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
                                 <ul
                                     class="main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile">
                                     <li class="page_item page-item-7 current-menu-item menu-item current-menu-item"><a
-                                            href="/" class="menu-link">Accueil</a></li>
+                                            href="/planty/" class="menu-link">Accueil</a></li>
                                     <li class="page_item page-item-11 menu-item"><a
                                             href="/precommande/" class="menu-link">Commander</a>
                                     </li>
