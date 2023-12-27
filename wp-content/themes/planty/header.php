@@ -90,6 +90,19 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
                                 );
 
 							?>
+                        <!--
+                        <ul id="menu-menu-du-header" 
+                            class="main-header-menu ast-menu-shadow ast-nav-menu ast-flex submenu-with-border stack-on-mobile">
+                            <li id="menu-item-899" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-899">
+                                <a href="http://localhost/planty/rencontrez-nous/" class="menu-link">Nous rencontrer</a></li>
+                            <li id="menu-item-409" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-409">
+                                <a target="_blank" class="menu-link" href="/planty/wp-admin/">Admin</a>
+                            </li>
+                            <li id="menu-item-747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-747">
+                                <a href="http://localhost/planty/precommande/" class="menu-link">Commander</a>
+                            </li>
+                        </ul>
+                        -->
                                     </div>
                                 </div>
                             </div>
