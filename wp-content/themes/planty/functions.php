@@ -33,7 +33,7 @@ function menu_admin_planty( $items, $args ) {
 if ( is_user_logged_in() && $args->theme_location == 'primary') {
 
 	$admin_link = '<li id="menu-item-409" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-409">                        
-	<a target="_blank" class="menu-link" href="/wp-admin/">Admin</a>                   
+	<a target="_blank" class="menu-link" href="' . site_url() .  '/wp-admin/">Admin</a>                   
 	</li>';
 
 	$menu_items = explode('</li>', $items);      
@@ -42,6 +42,7 @@ if ( is_user_logged_in() && $args->theme_location == 'primary') {
 
 	$items = implode('</li>', $menu_items);
 	}
+
 
 	return $items;
 }
