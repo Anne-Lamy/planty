@@ -58,7 +58,7 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
                                         <span class="site-logo-img"><a href="/"
                                                 class="custom-logo-link" rel="home" aria-current="page"><img width="201"
                                                     height="19"
-                                                    src="/wp-content/uploads/2023/11/Logo-mini.png"
+                                                    src="../wp-content/uploads/2023/11/Logo-mini.png"
                                                     class="custom-logo" alt="" decoding="async"></a></span>
                                         <div class="ast-site-title-wrap">
                                             <span class="site-title" itemprop="name">
